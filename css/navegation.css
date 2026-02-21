@@ -1,0 +1,29 @@
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0 40px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3d2b1f;
+    font-weight: 800;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    transition: transform 0.2s ease;
+}
+
+nav a:hover {
+    color: #8b4513;
+    transform: scale(1.1);
+}
