@@ -9,6 +9,47 @@
     <body>
         <div class="container-interface-tower">
             <img src="images/bookfinal2.png" alt="Tower Section" class="tower-image">
+
+            <img src="images/archer1.jpg" class="archer-card1 thumb" onclick="actualizarInfo('archer1')">
+            <img src="images/archer2.jpg" class="archer-card2 thumb" onclick="actualizarInfo('archer2')">
+            <img src="images/archer3.jpg" class="archer-card3 thumb" onclick="actualizarInfo('archer3')">
+
+            <img src="images/mage1.jpg" class="mage-card1 thumb" onclick="actualizarInfo('mage1')">
+            <img src="images/mage2.jpg" class="mage-card2 thumb" onclick="actualizarInfo('mage2')">
+            <img src="images/mage3.jpg" class="mage-card3 thumb" onclick="actualizarInfo('mage3')">
+            
+            <img src="images/artillery1.jpg" class="artillery-card1 thumb" onclick="actualizarInfo('artillery1')">
+            <img src="images/artillery2.jpg" class="artillery-card2 thumb" onclick="actualizarInfo('artillery2')">
+            <img src="images/artillery3.jpg" class="artillery-card3 thumb" onclick="actualizarInfo('artillery3')">
+
+            <img src="images/barbarians1.jpg" class="barbarians-card1 thumb" onclick="actualizarInfo('barbarians1')">
+            <img src="images/barbarians2.jpg" class="barbarians-card2 thumb" onclick="actualizarInfo('barbarians2')">
+            <img src="images/barbarians3.jpg" class="barbarians-card3 thumb" onclick="actualizarInfo('barbarians3')">
+
+            <div class="stats-container">
+                <h2 id="tower-name">NOMBRE DE LA TORRE</h2>
+                <div class="large-preview">
+                    <img id="main-view" src="images/archer1.jpg" alt="Vista Previa">
+                </div>
+
+                <p id="tower-lore">Descripcion breve aqui...</p>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="label">ATAQUE</span>
+                        <span id="stat-damage" class="value">0-0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">VELOCIDAD</span>
+                        <span id="stat-speed" class="value">MEDIA</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">RANGO</span>
+                        <span id="stat-range" class="value">LARGO</span>
+                    </div>
+                </div>
+            </div>
         </div>
+        <script src="js/towers.js"></script>
     </body>
 </html>
