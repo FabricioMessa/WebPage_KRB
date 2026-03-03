@@ -526,6 +526,444 @@ const towerData = {
             { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Artillería/Mágico" },
             { icon: "images/icon_range.png", label: "Alcance", value: "160" }
         ]
+    },
+    "arcano1": {
+        nombre: "Mago Arcano Nivel 1",
+        imagen: "images/arcano1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "80" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "735" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "890" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "150" }
+        ]
+    },
+    "arcano2": {
+        nombre: "Mago Arcano Nivel 2",
+        imagen: "images/arcano2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "180" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "1625" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1819" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "160" }
+        ]
+    },
+    "arcano3": {
+        nombre: "Mago Arcano Nivel 3",
+        imagen: "images/arcano3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "270" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "2322" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "2515" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "170" }
+        ]
+    },
+    "cazador1": {
+        nombre: "Puesto de Cazadores Nivel 1",
+        imagen: "images/cazador1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "80" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.8" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "259" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "369" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "150" }
+        ]
+    },
+    "cazador2": {
+        nombre: "Puesto de Cazadores Nivel 2",
+        imagen: "images/cazador2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "155" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.8" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "554" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "628" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "155" }
+        ]
+    },
+    "cazador3": {
+        nombre: "Puesto de Cazadores Nivel 3",
+        imagen: "images/cazador3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "245" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.8" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "813" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "997" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "160" }
+        ]
+    },
+    "creep1": {
+        nombre: "Arco Crepuscular Nivel 1",
+        imagen: "images/creep1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "105" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "439" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "585" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "240" }
+        ]
+    },
+    "creep2": {
+        nombre: "Arco Crepuscular Nivel 2",
+        imagen: "images/creep2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "210" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "878" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1024" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "255" }
+        ]
+    },
+    "creep3": {
+        nombre: "Arco Crepuscular Nivel 3",
+        imagen: "images/creep3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "315" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "1258" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1434" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "270" }
+        ]
+    },
+    "gema1": {
+        nombre: "Gema Llameante Nivel 1",
+        imagen: "images/gema1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "120" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "49" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "49" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "175" }
+        ]
+    },
+    "gema2": {
+        nombre: "Gema Llameante Nivel 2",
+        imagen: "images/gema2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "220" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "82" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "82" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "175" }
+        ]
+    },
+    "gema3": {
+        nombre: "Gema Llameante Nivel 3",
+        imagen: "images/gema3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "320" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "119" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "119" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "175" }
+        ]
+    },
+    "mech1": {
+        nombre: "Mecha de Batalla Nivel 1",
+        imagen: "images/mech1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_artillery.png", label: "Tipo", value: "Artillería" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "105" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_damagearea.png", label: "Daño mínimo", value: "336" },
+            { icon: "images/icon_damagearea.png", label: "Daño máximo", value: "639" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Artillería" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "160" }
+        ]
+    },
+    "mech2": {
+        nombre: "Mecha de Batalla Nivel 2",
+        imagen: "images/mech2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_artillery.png", label: "Tipo", value: "Artillería" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "190" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_damagearea.png", label: "Daño mínimo", value: "673" },
+            { icon: "images/icon_damagearea.png", label: "Daño máximo", value: "976" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Artillería" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "170" }
+        ]
+    },
+    "mech3": {
+        nombre: "Mecha de Batalla Nivel 3",
+        imagen: "images/mech3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_artillery.png", label: "Tipo", value: "Artillería" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "280" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_damagearea.png", label: "Daño mínimo", value: "1009" },
+            { icon: "images/icon_damagearea.png", label: "Daño máximo", value: "1312" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Artillería" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "180" }
+        ]
+    },
+    "nigromante1": {
+        nombre: "Nigromante Nivel 1",
+        imagen: "images/nigromante1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "90" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "1.1" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "464" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "542" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "150" }
+        ]
+    },
+    "nigromante2": {
+        nombre: "Nigromante Nivel 2",
+        imagen: "images/nigromante2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "190" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "1.1" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "929" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1122" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "155" }
+        ]
+    },
+    "nigromante3": {
+        nombre: "Nigromante Nivel 3",
+        imagen: "images/nigromante3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "290" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "1.1" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "1432" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1587" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "160" }
+        ]
+    },
+    "rockets1": {
+        nombre: "Artilleros Cohete Nivel 1",
+        imagen: "images/rockets1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_cuartel.png", label: "Tipo", value: "Cuartel" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "80" },
+            { icon: "images/icon_group.png", label: "Cantidad", value: "2" },
+            { icon: "images/icon_life.png", label: "Salud", value: "1099" },
+            { icon: "images/icon_arnadura.png", label: "Armadura", value: "25%" },
+            { icon: "images/icon_speedbarrack.png", label: "Vel. Ataque", value: "1.3" },
+            { icon: "images/icon_barrack.png", label: "Daño mínimo", value: "184" },
+            { icon: "images/icon_barrack.png", label: "Daño máximo", value: "257" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "503" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "658" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "170" }
+        ]
+    },
+    "rockets2": {
+        nombre: "Artilleros Cohete Nivel 2",
+        imagen: "images/rockets2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_cuartel.png", label: "Tipo", value: "Cuartel" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "175" },
+            { icon: "images/icon_group.png", label: "Cantidad", value: "2" },
+            { icon: "images/icon_life.png", label: "Salud", value: "1673" },
+            { icon: "images/icon_arnadura.png", label: "Armadura", value: "25%" },
+            { icon: "images/icon_speedbarrack.png", label: "Vel. Ataque", value: "1.2" },
+            { icon: "images/icon_barrack.png", label: "Daño mínimo", value: "294" },
+            { icon: "images/icon_barrack.png", label: "Daño máximo", value: "368" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "1084" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1238" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "175" }
+        ]
+    },
+    "rockets3": {
+        nombre: "Artilleros Cohete Nivel 3",
+        imagen: "images/rockets3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_cuartel.png", label: "Tipo", value: "Cuartel" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "280" },
+            { icon: "images/icon_group.png", label: "Cantidad", value: "2" },
+            { icon: "images/icon_life.png", label: "Salud", value: "2174" },
+            { icon: "images/icon_arnadura.png", label: "Armadura", value: "25%" },
+            { icon: "images/icon_speedbarrack.png", label: "Vel. Ataque", value: "1.2" },
+            { icon: "images/icon_barrack.png", label: "Daño mínimo", value: "404" },
+            { icon: "images/icon_barrack.png", label: "Daño máximo", value: "515" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "2" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "1432" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1548" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "180" }
+        ]
+    },
+    "royal1": {
+        nombre: "Arqueros Reales Nivel 1",
+        imagen: "images/royal1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "75" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.6" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "148" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "222" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "200" }
+        ]
+    },
+    "royal2": {
+        nombre: "Arqueros Reales Nivel 2",
+        imagen: "images/royal2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "150" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.6" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "296" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "332" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "215" }
+        ]
+    },
+    "royal3": {
+        nombre: "Arqueros Reales Nivel 3",
+        imagen: "images/royal3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "220" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "0.5" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "332" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "406" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Físico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "230" }
+        ]
+    },
+    "supreme1": {
+        nombre: "Mago Supremo Nivel 1",
+        imagen: "images/supreme1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "80" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "1.3" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "387" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "503" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "150" }
+        ]
+    },
+    "supreme2": {
+        nombre: "Mago Supremo Nivel 2",
+        imagen: "images/supreme2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "175" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "1.3" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "851" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1045" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "155" }
+        ]
+    },
+    "supreme3": {
+        nombre: "Mago Supremo Nivel 3",
+        imagen: "images/supreme3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_mage.png", label: "Tipo", value: "Magia" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "260" },
+            { icon: "images/icon_speedatk.png", label: "Vel. Ataque", value: "1.3" },
+            { icon: "images/icon_ataque.png", label: "Daño mínimo", value: "1277" },
+            { icon: "images/icon_ataque.png", label: "Daño máximo", value: "1432" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Mágico" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "160" }
+        ]
+    },
+    "taladro1": {
+        nombre: "Dwaarp Nivel 1",
+        imagen: "images/taladro1.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_artillery.png", label: "Tipo", value: "Artillería" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "90" },
+            { icon: "images/icon_speedbarrack.png", label: "Vel. Ataque", value: "3" },
+            { icon: "images/icon_damagearea.png", label: "Daño mínimo", value: "271" },
+            { icon: "images/icon_damagearea.png", label: "Daño máximo", value: "310" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Artillería" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "145" }
+        ]
+    },
+    "taladro2": {
+        nombre: "Dwaarp Nivel 2",
+        imagen: "images/taladro2.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_artillery.png", label: "Tipo", value: "Artillería" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "190" },
+            { icon: "images/icon_speedbarrack.png", label: "Vel. Ataque", value: "3" },
+            { icon: "images/icon_damagearea.png", label: "Daño mínimo", value: "542" },
+            { icon: "images/icon_damagearea.png", label: "Daño máximo", value: "619" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Artillería" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "150" }
+        ]
+    },
+    "taladro3": {
+        nombre: "Dwaarp Nivel 3",
+        imagen: "images/taladro3.jpg",
+        stats: [
+            { icon: "images/icon_Atier.png", label: "", value: "Tier" },
+            { icon: "images/icon_artillery.png", label: "Tipo", value: "Artillería" },
+            { icon: "images/icon_costo.png", label: "Costo", value: "270" },
+            { icon: "images/icon_speedbarrack.png", label: "Vel. Ataque", value: "3" },
+            { icon: "images/icon_damagearea.png", label: "Daño mínimo", value: "774" },
+            { icon: "images/icon_damagearea.png", label: "Daño máximo", value: "851" },
+            { icon: "images/icon_truedamage.png", label: "Tipo de daño", value: "Artillería" },
+            { icon: "images/icon_range.png", label: "Alcance", value: "155" }
+        ]
     }
 };
 
@@ -541,6 +979,18 @@ const paginas = [
     {
         titulo: "Torres",
         elementos: ["explorador1", "explorador2", "explorador3", "sacred1", "sacred2", "sacred3", "tesla1", "tesla2", "tesla3", "glaciar1", "glaciar2", "glaciar3"]
+    },
+    {
+        titulo: "Torres",
+        elementos: ["arcano1", "arcano2", "arcano3", "cazador1", "cazador2", "cazador3", "creep1", "creep2", "creep3", "gema1", "gema2", "gema3"] 
+    },
+    {
+        titulo: "Torres",
+        elementos: ["mech1", "mech2", "mech3", "nigromante1", "nigromante2", "nigromante3", "rockets1", "rockets2", "rockets3", "royal1", "royal2", "royal3"] 
+    },
+    {
+        titulo: "Torres",
+        elementos: ["supreme1", "supreme2", "supreme3", "taladro1", "taladro2", "taladro3"] 
     }
 ];
 
