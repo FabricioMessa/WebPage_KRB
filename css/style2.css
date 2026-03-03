@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,175 +26,125 @@ body {
     display: block;
 }
 
-.archer-card1 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 26%;
-    left: 23%;
-}
-
-.archer-card2 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 42%;
-    left: 23%;
-}
-
-.archer-card3 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 58%;
-    left: 23%;
-}
-
-.mage-card1 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 26%;
-    left: 29%;
-}
-
-.mage-card2 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 42%;
-    left: 29%;
-}
-
-.mage-card3 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 58%;
-    left: 29%;
-}
-
-.artillery-card1 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 26%;
-    left: 35%;
-}
-
-.artillery-card2 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 42%;
-    left: 35%;
-}
-
-.artillery-card3 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 58%;
-    left: 35%;
-}
-
-.barbarians-card1 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 26%;
-    left: 41%;
-}
-
-.barbarians-card2 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 42%;
-    left: 41%;
-}
-
-.barbarians-card3 {
-    position: absolute;
-    z-index: 5;
-    width: 100px;
-    height: auto;
-    top: 58%;
-    left: 41%;
-}
-
-.stats-container {
-    position: absolute;
-    top: 20%;
-    right: 20.7%;
-    width: 20%;
-    text-align: center;
-    color: #4a2f1b;
-    font-family: 'Arial', sans-serif;
-}
-
-.large-preview img {
-    width: 200px;
-    height: auto;
-    margin: 50px 0;
-    border-radius: 5px;
-
-    border: none;
-    box-shadow: inset 0px 0px 45px rgba(26, 14, 5, 0.95), inset 0px 0px 20px 10px rgba(102, 51, 14, 0.5), 5px 5px 15px rgba(0, 0, 0, 0.6);
-    filter: sepia(0.2) contrast(1.2) brightness();
-}
-
-.stats-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.stat-item {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(74, 47, 27, 0.3);
-    padding: 5px 0;
-}
-
-.label { 
-    font-weight: bold; 
-}
-
-.value { 
-    color: #8b0000; 
-    font-weight: bold; 
-}
-
 .thumb { 
     cursor: pointer; 
-    transition: transform 0.2s, box-shadow 0.2s; 
-    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
     padding: 6px;
     border: 1px solid #ddd;
     box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.5);
+    z-index: 5;
 }
 
 .thumb:hover { 
     transform: scale(1.1); 
     filter: brightness(1.2); 
+    z-index: 10;
+}
+
+.archer-card1 { position: absolute; width: 100px; height: auto; top: 26%; left: 23%; }
+.archer-card2 { position: absolute; width: 100px; height: auto; top: 42%; left: 23%; }
+.archer-card3 { position: absolute; width: 100px; height: auto; top: 58%; left: 23%; }
+
+.mage-card1 { position: absolute; width: 100px; height: auto; top: 26%; left: 29%; }
+.mage-card2 { position: absolute; width: 100px; height: auto; top: 42%; left: 29%; }
+.mage-card3 { position: absolute; width: 100px; height: auto; top: 58%; left: 29%; }
+
+.artillery-card1 { position: absolute; width: 100px; height: auto; top: 26%; left: 35%; }
+.artillery-card2 { position: absolute; width: 100px; height: auto; top: 42%; left: 35%; }
+.artillery-card3 { position: absolute; width: 100px; height: auto; top: 58%; left: 35%; }
+
+.barbarians-card1 { position: absolute; width: 100px; height: auto; top: 26%; left: 41%; }
+.barbarians-card2 { position: absolute; width: 100px; height: auto; top: 42%; left: 41%; }
+.barbarians-card3 { position: absolute; width: 100px; height: auto; top: 58%; left: 41%; }
+
+.stats-container {
+    position: absolute;
+    top: 19%;      
+    right: 14%;
+    width: 34%;    
+    text-align: center;
+    color: #4a2f1b;
+    font-family: 'Caveat', cursive;
 }
 
 #tower-name {
-    font-size: 1.3rem; 
+    font-size: 1.8rem; 
     font-weight: bold;
     margin-bottom: 10px;       
     color: #4a2f1b;           
+}
+
+.powerpoint-tower-image {
+    width: 180px;  
+    height: auto;
+    margin-bottom: 10px; 
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.3));
+}
+
+.stats-grid-powerpoint {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 120px;
+    gap: 2px 80px; 
+    
+    text-align: left;
+}
+
+.stat-item-powerpoint {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.stat-icon {
+    width: 28px;  
+    height: auto;
+}
+
+.stat-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.label { 
+    font-size: 1.1rem;
+    font-weight: normal; 
+    color: #4a2f1b;
+    text-transform: none;
+}
+
+.value { 
+    font-size: 1.3rem;
+    color: #1a1a1a; 
+    font-weight: bold; 
+}
+
+#left-page-title {
+    position: absolute;
+    top: 18%; 
+    left: 35.5%; 
+    transform: translateX(-50%);
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4a2f1b;
+    z-index: 10;
+}
+
+.area-invisible {
+    position: absolute;
+    width: 35px; 
+    height: 35px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#click-prev {
+    top: 77.2%; 
+    left: 33.5%;
+}
+
+#click-next {
+    top: 77.2%;
+    left: 36.4%;
 }
