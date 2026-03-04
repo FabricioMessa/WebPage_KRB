@@ -148,3 +148,20 @@ body {
     top: 77.2%;
     left: 36.4%;
 }
+
+.large-pview {
+    position: relative; 
+    display: inline-block;
+}
+
+.special-tower-icon {
+    position: absolute;
+    top: 50%;           
+    right: -90px;       
+    transform: translateY(-50%);
+    width: 45px;        
+    height: auto;
+    z-index: 10;
+    display: none;     
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.3));
+}

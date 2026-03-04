@@ -2,6 +2,7 @@ const towerData = {
     "archer1": {
         nombre: "Torre de Arqueros Nivel 1",
         imagen: "images/archer1.jpg",
+        specialIcon: "images/archer_pasive.png",
         stats: [
             { icon: "images/icon_Atier.png", label: "", value: "Tier" },
             { icon: "images/icon_archers.png", label: "Tipo", value: "A distancia" },
@@ -1029,6 +1030,15 @@ function actualizarInfo(idTorre) {
         `;
         contenedorStats.appendChild(item);
     });
+
+    const specialImg = document.getElementById('special-icon');
+    
+    if (data.specialIcon) {
+        specialImg.src = data.specialIcon;
+        specialImg.style.display = 'block'; // Lo mostramos si existe
+    } else {
+        specialImg.style.display = 'none';  // Lo ocultamos si no tiene
+    }
 }
 
 function cambiarPagina(direccion) {
